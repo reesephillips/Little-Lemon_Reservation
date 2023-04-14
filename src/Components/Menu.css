@@ -1,0 +1,41 @@
+.menu {
+  margin: 50px 0;
+  margin-bottom: 100px;
+}
+
+.menu .top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu h2 {
+  font-family: "Markazi Text";
+  font-weight: 400;
+  font-size: 40px;
+  color: #333333;
+}
+
+.menu-category {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 40px;
+  margin-top: 66px;
+}
+
+@media (min-width: 576px) {
+  .menu-category {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .menu-category {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 28px;
+    row-gap: 0;
+  }
+}

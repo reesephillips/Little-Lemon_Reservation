@@ -1,0 +1,136 @@
+.booking-form-heading {
+  margin-top: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.booking-form-heading > h3 {
+  font-family: "Markazi Text";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.booking-form-heading > p {
+  font-family: "Markazi Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.booking-form {
+  box-sizing: border-box;
+  border: 1px solid #333333;
+  border-radius: 16px;
+  margin-top: 28px;
+  margin-bottom: 100px;
+  padding: 42px 36px;
+}
+
+.booking-form > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+  margin-bottom: 40px;
+}
+
+.booking-form > div:nth-child(3) {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.seating-option > div:first-of-type {
+  margin-bottom: 10px;
+}
+
+.seating-option > div > label {
+  margin-left: 10px;
+  font-weight: normal;
+}
+
+label {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+small {
+  margin-top: 10px;
+  color: red;
+}
+
+select,
+input[type="date"],
+input[type="text"],
+input[type="email"] {
+  border-radius: 16px;
+  padding: 14px 22px;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: #333;
+  border-right: 22px solid transparent;
+}
+
+input[type="date"] {
+  border-right: 0;
+}
+
+textarea {
+  border-radius: 16px;
+  border: 1px solid #333;
+  resize: none;
+  padding: 10px 14px;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+
+.submit-btn {
+  all: unset;
+  font-family: inherit;
+  cursor: pointer;
+  line-height: inherit;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #f4ce14;
+  border-radius: 16px;
+  padding: 12px 24px;
+  display: inline-block;
+}
+
+.submit-btn-disabled {
+  all: unset;
+  font-family: inherit;
+  cursor: pointer;
+  line-height: inherit;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #fbeba1;
+  color: #adadad;
+  border-radius: 16px;
+  padding: 12px 24px;
+  display: inline-block;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .booking-form {
+    padding: 42px 120px;
+  }
+}

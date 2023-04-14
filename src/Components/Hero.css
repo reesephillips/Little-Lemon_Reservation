@@ -1,0 +1,43 @@
+.hero {
+  background-color: #495e57;
+  padding: 40px 0;
+}
+
+.hero > .wrapper {
+  display: grid;
+  grid-template-columns: auto 30%;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.hero h1 {
+  font-family: "Markazi Text";
+  font-weight: 500;
+  font-size: 64px;
+  color: #f4ce14;
+}
+
+.hero h3 {
+  font-family: "Markazi Text";
+  font-weight: 400;
+  font-size: 40px;
+  color: #fffefc;
+  margin-top: 20px;
+}
+
+.hero p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #fffefc;
+  margin-top: 20px;
+  max-width: 280px;
+}
+
+.hero a {
+  margin-top: 20px;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}

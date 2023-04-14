@@ -1,0 +1,46 @@
+.booking-hero {
+  background-color: #495e57;
+  padding: 40px 0;
+}
+
+.booking-hero > .wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.booking-hero h1 {
+  font-family: "Markazi Text";
+  font-weight: 500;
+  font-size: 64px;
+  color: #f4ce14;
+}
+
+.booking-hero h3 {
+  font-family: "Markazi Text";
+  font-weight: 400;
+  font-size: 40px;
+  color: #fffefc;
+  margin-top: 20px;
+}
+
+.booking-hero p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #fffefc;
+  margin-top: 20px;
+  max-width: 280px;
+}
+
+.booking-hero aside:nth-child(2) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  margin-top: 56px;
+}
+
+.booking-hero img {
+  width: 100%;
+  height: auto;
+}
